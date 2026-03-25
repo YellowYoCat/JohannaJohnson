@@ -41,31 +41,31 @@ export default function ContactPage() {
   const socialLinks = [
     {
       name: "Instagram",
-      icon: "📷",
+      
       link: "https://instagram.com/yourusername",
       external: true
     },
     {
       name: "LinkedIn",
-      icon: "💼",
+      
       link: "https://linkedin.com/in/yourusername",
       external: true
     },
     {
       name: "GitHub",
-      icon: "🐙",
+      
       link: "https://github.com/yourusername",
       external: true
     },
     {
       name: "Twitter",
-      icon: "🐦",
+      
       link: "https://twitter.com/yourusername",
       external: true
     },
     {
       name: "Pinterest",
-      icon: "🎨",
+      
       link: "https://behance.net/yourusername",
       external: true
     }
@@ -139,7 +139,7 @@ export default function ContactPage() {
               aria-label={social.name}
             >
               <div className="circle">
-                <span className="socialIcon">{social.icon}</span>
+                {/* <span className="socialIcon">{social.icon}</span> */}
               </div>
             </a>
           ))}
