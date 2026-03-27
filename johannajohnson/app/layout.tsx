@@ -1,4 +1,3 @@
-"use client";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -27,7 +26,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <main className="container">
-
           <nav className="navbar">
             <a href="/" className="logo-link">
               <h1 className="logo">JOHANNA JOHNSON</h1>
@@ -51,7 +49,6 @@ export default function RootLayout({
               <a href="/contact">Contact</a>
             </div>
           </footer>
-
         </main>
       </body>
     </html>
