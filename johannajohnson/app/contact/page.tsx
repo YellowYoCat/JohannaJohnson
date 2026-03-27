@@ -24,8 +24,8 @@ export default function ContactPage() {
         (result: any) => {
           console.log("Email sent successfully:", result.text);
           setSubmitStatus("success");
-          formRef.current?.reset(); // Clear the form
-          setTimeout(() => setSubmitStatus(null), 5000); // Clear message after 5 seconds
+          formRef.current?.reset(); 
+          setTimeout(() => setSubmitStatus(null), 5000);
         },
         (error: any) => {
           console.log("Failed to send email:", error.text);

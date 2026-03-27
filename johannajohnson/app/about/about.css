@@ -21,7 +21,7 @@
   background: #bdbdbd;
   border: 2px solid #333;
   box-shadow: 6px 6px 10px rgba(0,0,0,0.3);
-  overflow: hidden; /* Ensures image doesn't overflow the container */
+  overflow: hidden; 
 }
 
 .aboutImage img {
