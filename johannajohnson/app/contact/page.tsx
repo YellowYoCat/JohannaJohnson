@@ -41,32 +41,32 @@ export default function ContactPage() {
   const socialLinks = [
     {
       name: "Instagram",
-      
-      link: "https://instagram.com/yourusername",
+      img: <img src="/Instagram_icon.png"/>,
+      link: "https://instagram.com/yellowyocat",
       external: true
     },
     {
       name: "LinkedIn",
-      
-      link: "https://linkedin.com/in/yourusername",
+      img: <img src="/linkedinlogo.png"/>,
+      link: "https://www.linkedin.com/in/johanna-johnson/",
       external: true
     },
     {
       name: "GitHub",
-      
-      link: "https://github.com/yourusername",
+      img: <img src="/github.png"/>,
+      link: "https://github.com/YellowYoCat",
       external: true
     },
     {
       name: "Twitter",
-      
-      link: "https://twitter.com/yourusername",
+      img: <img src="/twitter.png"/>,
+      link: "https://x.com/catMeowsboi",
       external: true
     },
     {
       name: "Pinterest",
-      
-      link: "https://behance.net/yourusername",
+      img: <img src="/pinterest.png"/>,
+      link: "https://www.pinterest.com/yellowyocat/_pins/",
       external: true
     }
   ];
@@ -80,7 +80,7 @@ export default function ContactPage() {
           <label className="label">Name</label>
           <input 
             type="text" 
-            name="user_name"
+            name="name"
             className="input" 
             required
             disabled={isSubmitting}
@@ -89,7 +89,7 @@ export default function ContactPage() {
           <label className="label">Email</label>
           <input 
             type="email" 
-            name="user_email"
+            name="email"
             className="input" 
             required
             disabled={isSubmitting}
@@ -139,7 +139,7 @@ export default function ContactPage() {
               aria-label={social.name}
             >
               <div className="circle">
-                {/* <span className="socialIcon">{social.icon}</span> */}
+                <span className="socialIcon">{social.img}</span>
               </div>
             </a>
           ))}
