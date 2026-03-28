@@ -53,3 +53,112 @@
   line-height: 1.6;
 }
 
+@media (max-width: 1024px) {
+  .aboutSection {
+    gap: 50px;
+    padding: 50px 40px;
+  }
+
+  .aboutImage {
+    width: 350px;
+    height: 350px;
+  }
+
+  .aboutBox {
+    max-width: 450px;
+    padding: 22px;
+  }
+
+  .aboutContent h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutSection {
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 30px;
+  }
+
+  .aboutImage {
+    width: 320px;
+    height: 320px;
+  }
+
+  .aboutContent {
+    text-align: center;
+  }
+
+  .aboutContent h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .aboutBox {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .aboutBox p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    min-height: auto;
+  }
+
+  .aboutSection {
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .aboutImage {
+    width: 260px;
+    height: 260px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.25);
+  }
+
+  .aboutContent h2 {
+    font-size: 26px;
+    padding: 4px 12px;
+    margin-bottom: 20px;
+  }
+
+  .aboutBox {
+    padding: 18px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.25);
+  }
+
+  .aboutBox p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 380px) {
+  .aboutSection {
+    padding: 30px 16px;
+    gap: 25px;
+  }
+
+  .aboutImage {
+    width: 220px;
+    height: 220px;
+  }
+
+  .aboutContent h2 {
+    font-size: 24px;
+    padding: 4px 10px;
+  }
+
+  .aboutBox {
+    padding: 16px;
+  }
+
+  .aboutBox p {
+    font-size: 13px;
+  }
+}
