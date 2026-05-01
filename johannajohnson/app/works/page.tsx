@@ -8,7 +8,7 @@ export default function Works() {
   const projects = [
     {
       id: 1,
-      img: <img src="/supernon.png" />,
+      img: <img src="/supernon.png" alt="Super Nom Wrangler app interface" />,
       title: "Super Nom Wranger",
       category: "UI/UX",
       description: "designing an app that allows users to search for Mom and Pop shops around your area.",
@@ -17,43 +17,34 @@ export default function Works() {
     },
     {
       id: 2,
-      img: <img src="/supernomlogo.png" />,
+      img: <img src="/supernomlogo.png" alt="Super Nom Wrangler logo" />,
       title: "Super Nom Wranger",
       category: "Web Development",
-      description: "Devloping a app that allows users to search up mom and pop shop. Allowing user interaction with reviewing restaurants. Users are allowed to enter a restaurant in their area.",
+      description: "The Super Nom Wrangler website and app concept was conceptualized and developed in 2025. This project was a collaborative effort involving a dedicated group of contributors, including myself. The development took place within a classroom environment, allowing for a structured approach to building the platform. This website is used to find mom and pop shops or hidden gems around your city. Adding a user-based interaction to the Website and app that involves the user in adding mom and pop shops that they find. They are also able to review the shops that they have been to.\n\nTech used:\n• React\n• CSS\n• Google Maps API\n• AWS (Amazon Web Services)\n• JavaScript (JS)",
       link: "https://github.com/LeighVirrey/SuperNomWrangler",
       external: true
     },
     {
       id: 3,
-      img: <img src="/pond.png" />,
+      img: <img src="/pond.png" alt="Pondfoilo portfolio website preview" />,
       title: "Pondfoilo",
       category: "Web Development",
-      description: "The first time i've went out of my way to make a portfolio website. Every background is drawn by me even the pond creatures. Using nextjs as the framework, using motion+ for the animations and vercel for deployment.",
+      description:  "Pondfolio represents my initial foray into professional web development as my first personal portfolio website. Conceptualized and built in 2026, the project was developed entirely within the personal space of my bedroom. The site was engineered using a sophisticated modern stack to demonstrate technical proficiency.\n\nTech used:\n• NextJS\n• CSS\n• Tailwind CSS\n• Motion+\n• Vercel",
       link: "https://pondfolio.space/",
       external: true
     },
     {
       id: 4,
-      img: <img src="/pondwire.png" />,
-      title: "Pondfoilo",
-      category: "UI/UX",
-      description: "the wireframes for the idea of my first portfolio.",
-      link: "https://www.figma.com/design/Dmukph3felNFIKBQNM7W23/Portolio?node-id=0-1&t=AXfQ937YJtaN6w8R-1",
-      external: true
-    },
-    {
-      id: 5,
-      img: <img src="/mavjo.png" />,
+      img: <img src="/mavjo.png" alt="MavJo website homepage" />,
       title: "MavJo",
       category: "Web Development",
-      description: "A website that a friend and me made for freelance work.",
+      description: "Conceptualized and developed in 2026, MavJo stands as a collaborative digital project between myself and a partner met through an online community. The platform was primarily designed as a professional showcase, serving as a comprehensive website to demonstrate our collective technical capabilities and creative potential. Functioning as a freelance hub, MavJo provides a streamlined interface for potential clients to explore our diverse range of services. The site facilitates direct communication, allowing individuals and organizations to contact us easily for project inquiries and service fulfillment.\n\nTech used:\n• NextJS \n• CSS \n• Vercel",
       link: "https://mavjo.space/",
       external: true
     },
     {
-      id: 6,
-      img: <img src="/mavjowire.png" />,
+      id: 5,
+      img: <img src="/mavjowire.png" alt="MavJo wireframe sketches" />,
       title: "MavJo Wireframes",
       category: "UI/UX",
       description: "Wireframes and protypes of what we might wanted the site the look like. ",
@@ -61,71 +52,18 @@ export default function Works() {
       external: true
     },
     {
-      id: 7,
-      img: <img src="/personalweb.png" />,
-      title: "Portfolio Redo",
-      category: "UI/UX",
-      description: "Wireframes and protypes of what I wanted the redesign of my website to look like. ",
-      link: "https://www.figma.com/design/lXm4KEWBMZJRXISl9UP2qj/redo-of-portfilo?node-id=0-1&t=tfRJcl9BPHStUCLp-1",
-      external: true
-    },
-    {
-      id: 8,
-      img: <img src="/moviewire.png" />,
-      title: "Movie reviewer",
-      category: "UI/UX",
-      description: "Wireframes and protypes for what a movie review site will look like.",
-      link: "https://www.figma.com/design/Qddp46JXqS8jWSJzZqlzOM/Movie-Review-Site?node-id=28-59&t=Ju4Cc3EpKTIh5Re0-1",
-      external: true
-    },
-    {
-      id: 9,
-      img: <img src="/logoplant.png" />,
-      title: "Botani care Taker",
-      category: "Web Development",
-      description: "Using python with machine learning. Making a idle plant game where it waters the plant when you are away.",
-      link: "https://github.com/madkmitchell/Roomba",
-      external: true
-    },
-    {
-      id: 10,
-      img: <img src="/idleplant.png" />,
-      title: "Botani care Taker",
-      category: "UI/UX",
-      description: "Wireframes and protypes for what Botani care taker would look like.",
-      link: "https://www.figma.com/design/ki6fDj49zBNbHRM6sES9V9/Botani--caretaker?node-id=0-1&t=bejOsJeRuWfLMnQd-1",
-      external: true
-    },
-    {
-      id: 11,
-      img: <img src="/tune.png" />,
+      id: 6,
+      img: <img src="/tune.png" alt="TuneBreaker music learning app design" />,
       title: "TuneBreaker",
       category: "UI/UX",
       description: "Designing a application that helps people who are learning music with splitting the sounds of the songs of your choice. letting the user learn how to identify music pitch and piano chords. ",
       link: "https://www.figma.com/design/H3mxVvtrRWyb0TaII9ahVU/wireframes?node-id=0-1&t=28qVmmaO5x5TDwiE-1",
       external: true
     },
+   
     {
-      id: 12,
-      // img: <img src=""/>,
-      title: "Time 4 Trivia",
-      category: "Web Development",
-      description: "Website that has Trivia. was used to Demonstrate  how vulnerable websites can be. ",
-      link: "https://github.com/rottngator/Time4Trivia-Start",
-      external: true
-    },
-    {
-      id: 13,
-      // img: <img src="" />,
-      title: "Movie Reviewer",
-      category: "Web Development",
-      description: "Using reactjs and GraphQL in creating a movie reviewer. where the user can reviews and search fro movies.",
-      link: "https://github.com/YellowYoCat/Fantastic-Four",
-      external: true
-    },
-    {
-      id: 14,
-      img: <img src="/leader.jpg" />,
+      id: 7,
+      img: <img src="/leader.jpg" alt="Haewon Nmixx leader graphic design" />,
       title: "Haewon Nmixx Leader",
       category: "Graphic Design",
       description: "a page that shows off girlgroup Nmixx's leader Haewon 3 x 3",
@@ -133,8 +71,8 @@ export default function Works() {
       external: true
     },
     {
-      id: 15,
-      img: <img src="/baegrey.jpg" />,
+      id: 8,
+      img: <img src="/baegrey.jpg" alt="Bae phone wallpaper design" />,
       title: "Bae Phone Wallpaper",
       category: "Graphic Design",
       description: "A phone wallpaper created in affinity.",
@@ -142,8 +80,8 @@ export default function Works() {
       external: true
     },
     {
-      id: 16,
-      img: <img src="/haewon_wallpaper.jpg" />,
+      id: 9,
+      img: <img src="/haewon_wallpaper.jpg" alt="Haewon phone wallpaper" />,
       title: "Haewon Phone Wallpaper",
       category: "Graphic Design",
       description: "A phone wallpaper created in affinity.",
@@ -151,8 +89,8 @@ export default function Works() {
       external: true
     },
     {
-      id: 17,
-      img: <img src="/paperburnhaewon.jpg" />,
+      id: 10,
+      img: <img src="/paperburnhaewon.jpg" alt="Haewon with paper burn effects" />,
       title: "Haewon with paper burn marks",
       category: "Graphic Design",
       description: "A phone wallpaper created in affinity",
@@ -160,8 +98,8 @@ export default function Works() {
       external: true
     },
     {
-      id: 18,
-      img: <img src="/Twice.jpg" />,
+      id: 11,
+      img: <img src="/Twice.jpg" alt="Twice phone wallpaper" />,
       title: "Twice phone Wallpaper",
       category: "Graphic Design",
       description: "A phone wallpaper created in Photoshop",
@@ -169,8 +107,8 @@ export default function Works() {
       external: true
     },
     {
-      id: 19,
-      img: <img src="lily.png" />,
+      id: 12,
+      img: <img src="lily.png" alt="Lily phone wallpaper" />,
       title: "Lily phone Wallpaper",
       category: "Graphic Design",
       description: "A phone wallpaper created in affinity",
@@ -178,8 +116,8 @@ export default function Works() {
       external: true
     },
     {
-      id: 20,
-      img: <img src="/Cowboy.jpg" />,
+      id: 13,
+      img: <img src="/Cowboy.jpg" alt="Cowboy themed phone wallpaper" />,
       title: "Cowboy phone Wallpaper",
       category: "Graphic Design",
       description: "A phone wallpaper created in affinity",
@@ -187,8 +125,8 @@ export default function Works() {
       external: true
     },
     {
-      id: 21,
-      img: <img src="/poster1.jpg" />,
+      id: 14,
+      img: <img src="/poster1.jpg" alt="Handmade poster from K-pop album 1" />,
       title: "Hand made Poster",
       category: "Graphic Design",
       description: "Hand made Poster made out of a k-pop album.",
@@ -196,8 +134,8 @@ export default function Works() {
       external: true
     },
     {
-      id: 22,
-      img: <img src="/poster2.jpg" />,
+      id: 15,
+      img: <img src="/poster2.jpg" alt="Handmade poster from K-pop album 2" />,
       title: "Hand made Poster",
       category: "Graphic Design",
       description: "Hand made Poster made out of a k-pop album.",
@@ -205,8 +143,8 @@ export default function Works() {
       external: true
     },
     {
-      id: 23,
-      img: <img src="/poster3.jpg" />,
+      id: 16,
+      img: <img src="/poster3.jpg" alt="Handmade poster from K-pop album 3" />,
       title: "Hand made Poster",
       category: "Graphic Design",
       description: "Hand made Poster made out of a k-pop album.",
@@ -214,8 +152,8 @@ export default function Works() {
       external: true
     },
     {
-      id: 24,
-      img: <img src="/poster4.jpg" />,
+      id: 17,
+      img: <img src="/poster4.jpg" alt="Handmade poster from K-pop album 4" />,
       title: "Hand made Poster",
       category: "Graphic Design",
       description: "Hand made Poster made out of a k-pop album.",
@@ -223,8 +161,8 @@ export default function Works() {
       external: true
     },
     {
-      id: 25,
-      img: <img src="/poster5.jpg" />,
+      id: 18,
+      img: <img src="/poster5.jpg" alt="Handmade poster from K-pop album 5" />,
       title: "Hand made Poster",
       category: "Graphic Design",
       description: "Hand made Poster made out of a k-pop album.",
@@ -232,8 +170,8 @@ export default function Works() {
       external: true
     },
     {
-      id: 26,
-      img: <img src="/poster6.jpg" />,
+      id: 19,
+      img: <img src="/poster6.jpg" alt="Handmade poster from K-pop album 6" />,
       title: "Hand made Poster",
       category: "Graphic Design",
       description: "Hand made Poster made out of a k-pop album.",
@@ -241,63 +179,19 @@ export default function Works() {
       external: true
     },
     {
-      id: 27,
-      img: <img src="/final_2.jpg" />,
+      id: 20,
+      img: <img src="/final_2.jpg" alt="Rose Blackpink photoshop experiment" />,
       title: "Rose blackpink",
       category: "Graphic Design",
       description: "Experminting with tools in photoshop.",
       link: "https://www.instagram.com/p/CvKtQ9PJZUA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
       external: true
     },
-    {
-      id: 28,
-      img: <img src="/100_0061.JPG" />,
-      title: "Photoshot",
-      category: "Photography",
-      description: "Picture of a friend in cosplay.",
-      link: "https://www.instagram.com/p/C3_ud5OLxnG/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
-      external: true
-    },
-    // {
-    //   id: 29,
-    //   img: <img src="" />,
-    //   title: "Photography Portfolio",
-    //   category: "Photography",
-    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //   link: "https://example.com/portfolio",
-    //   external: true
-    // },
-    // {
-    //   id: 30,
-    //   img: <img src="" />,
-    //   title: "Photography Portfolio",
-    //   category: "Photography",
-    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //   link: "https://example.com/portfolio",
-    //   external: true
-    // },
-    // {
-    //   id: 31,
-    //   img: <img src="" />,
-    //   title: "Photography Portfolio",
-    //   category: "Photography",
-    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //   link: "https://example.com/portfolio",
-    //   external: true
-    // },
-    // {
-    //   id: 32,
-    //   img: <img src="" />,
-    //   title: "Photography Portfolio",
-    //   category: "Photography",
-    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //   link: "https://example.com/portfolio",
-    //   external: true
-    // },
+   
 
   ];
 
-  const filters = ["All", "UI/UX", "Web Development", "Graphic Design", "Photography"];
+  const filters = ["All", "UI/UX", "Web Development", "Graphic Design"];
 
   const filteredProjects = activeFilter === "All"
     ? projects

@@ -76,6 +76,27 @@ export default function ContactPage() {
       <section className="contactSection">
         <h2 className="heading">Contact</h2>
 
+        {/* Contact Info Section */}
+        <div className="contactInfo">
+          <div className="infoItem">
+            <div>
+              <p className="infoLabel">Email</p>
+              <a href="mailto:joh.rose.johnson@gmail.com" className="infoValue">
+                joh.rose.johnson@gmail.com
+              </a>
+            </div>
+          </div>
+          
+          <div className="infoItem">
+            <div>
+              <p className="infoLabel">Phone</p>
+              <a href="tel:+(605)-376-0984" className="infoValue">
+                +1 (605)-376-0984
+              </a>
+            </div>
+          </div>
+        </div>
+
         <form ref={formRef} onSubmit={sendEmail} className="card">
           <label className="label">Name</label>
           <input 
@@ -148,3 +169,81 @@ export default function ContactPage() {
     </main>
   );
 }
+
+//   return (
+//     <main className="container-contact">
+//       <section className="contactSection">
+//         <h2 className="heading">Contact</h2>
+
+//         <form ref={formRef} onSubmit={sendEmail} className="card">
+//           <label className="label">Name</label>
+//           <input 
+//             type="text" 
+//             name="name"
+//             className="input" 
+//             required
+//             disabled={isSubmitting}
+//           />
+
+//           <label className="label">Email</label>
+//           <input 
+//             type="email" 
+//             name="email"
+//             className="input" 
+//             required
+//             disabled={isSubmitting}
+//           />
+
+//           <label className="label">Message</label>
+//           <textarea 
+//             name="message"
+//             className="textarea" 
+//             required
+//             disabled={isSubmitting}
+//           ></textarea>
+
+//           <button 
+//             type="submit" 
+//             className="submitButton"
+//             disabled={isSubmitting}
+//           >
+//             {isSubmitting ? "Sending..." : "Send Message"}
+//           </button>
+
+//           {submitStatus === "success" && (
+//             <div className="successMessage">
+//               ✓ Message sent successfully! I'll get back to you soon.
+//             </div>
+//           )}
+
+//           {submitStatus === "error" && (
+//             <div className="errorMessage">
+//               ✗ Failed to send message. Please try again later.
+//             </div>
+//           )}
+//         </form>
+//       </section>
+
+//       <section className="socialSection">
+//         <h3 className="socialHeading">Socials</h3>
+
+//         <div className="socialIcons">
+//           {socialLinks.map((social, index) => (
+//             <a
+//               key={index}
+//               href={social.link}
+//               target={social.external ? "_blank" : "_self"}
+//               rel={social.external ? "noopener noreferrer" : ""}
+//               className="socialLink"
+//               aria-label={social.name}
+//             >
+//               <div className="circle">
+//                 <span className="socialIcon">{social.img}</span>
+//               </div>
+//             </a>
+//           ))}
+//         </div>
+//       </section>
+//     </main>
+//   );
+// }
