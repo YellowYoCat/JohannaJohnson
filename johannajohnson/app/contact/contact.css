@@ -24,6 +24,10 @@
   margin-bottom: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .infoIcon {
   font-size: 1.5rem;
 }

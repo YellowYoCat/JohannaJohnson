@@ -5,6 +5,10 @@
   font-family: Georgia, serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 
 .title {

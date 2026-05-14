@@ -11,9 +11,13 @@ export default function About() {
           <h2>About Me</h2>
           <div className="aboutBox">
             <p>
-              I recently graduated from the Neumont University
-              Science. I'm a fast learner and driven individual, primarily
-              focused on front-end development and UX/UI design.
+              As a motivated professional, I recently graduated from Neumont University. 
+              Throughout my academic career, 
+              I have distinguished myself as a fast learner and a highly driven individual, 
+              consistently seeking out new challenges to refine my technical and creative skill sets.
+               My professional passion is primarily focused on front-end development and UX/UI design, 
+               where I strive to create seamless, intuitive, and visually compelling user experiences that
+                bridge the gap between complex functionality and user-centric design.
             </p>
           </div>
         </div>

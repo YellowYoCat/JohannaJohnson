@@ -11,8 +11,8 @@ export default function Works() {
       img: <img src="/supernon.png" alt="Super Nom Wrangler app interface" />,
       title: "Super Nom Wranger",
       category: "UI/UX",
-      description: "designing an app that allows users to search for Mom and Pop shops around your area.",
-      link: "https://www.figma.com/design/0uCT2NPFitv7uUBCJ2pOMJ/Super-Nom-Wrangler?node-id=479-14&t=NNczMsUzsB4ZCK65-1",
+      description: "The Super Nom Wrangler website and app concept was conceptualized and developed in 2025. This project was a collaborative effort involving a dedicated group of contributors, including myself. The development took place within a classroom environment, allowing for a structured approach to building the platform. This website is used to find mom and pop shops or hidden gems around your city. Adding a user-based interaction to the Website and app that involves the user in adding mom and pop shops that they find. They are also able to review the shops that they have been to.",
+      link: "https://docs.google.com/document/d/1jQ-Uhd0fTLcxapWfk_qqPWmnhJu-1-Uv9ajQanHgHfM/edit?usp=sharing",
       external: true
     },
     {
@@ -47,8 +47,8 @@ export default function Works() {
       img: <img src="/mavjowire.png" alt="MavJo wireframe sketches" />,
       title: "MavJo Wireframes",
       category: "UI/UX",
-      description: "Wireframes and protypes of what we might wanted the site the look like. ",
-      link: "https://www.figma.com/design/mgUcc0GrJBUatq216ag039/MavJo?node-id=0-1&t=cbuClbHGpROvQ6aN-1",
+      description: "Conceptualized and developed in 2026, MavJo is a collaborative digital project between a partner I met through an online community. The platform was primarily designed as a professional showcase, serving as a comprehensive website to demonstrate our collective technical capabilities and creative potential. Functioning as a freelance hub, MavJo provides a streamlined interface for potential clients to explore our diverse range of services. The site facilitates direct communication, allowing individuals and organizations to contact us easily for project inquiries and service fulfillment.",
+      link: "https://docs.google.com/document/d/1IEK2_7mNk1eCUVfSfFTjxWG8kCF4Or1DO4TR0dKvHrI/edit?usp=sharing",
       external: true
     },
     {
@@ -57,7 +57,7 @@ export default function Works() {
       title: "TuneBreaker",
       category: "UI/UX",
       description: "Designing a application that helps people who are learning music with splitting the sounds of the songs of your choice. letting the user learn how to identify music pitch and piano chords. ",
-      link: "https://www.figma.com/design/H3mxVvtrRWyb0TaII9ahVU/wireframes?node-id=0-1&t=28qVmmaO5x5TDwiE-1",
+      link: "https://docs.google.com/document/d/1UWnS8CoeeaZi4a2NOPOFrMIGl3_RtfWNbqSLwoEuaHU/edit?usp=sharing",
       external: true
     },
    
